@@ -1,0 +1,45 @@
+{
+  "name": "evilscan",
+  "version": "1.6.1",
+  "description": "Massive ports scanner for node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "bin": {
+    "evilscan": "./bin/evilscan.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eviltik/evilscan"
+  },
+  "keywords": [
+    "security",
+    "port scanner",
+    "scanner",
+    "network",
+    "evilprobe"
+  ],
+  "author": "eviltik",
+  "license": "GPL-3.0",
+  "readmeFilename": "README.md",
+  "gitHead": "04dc1848981c48dfe5e36af1afaab2d29cdcde12",
+  "bugs": {
+    "url": "https://github.com/eviltik/evilscan/issues"
+  },
+  "dependencies": {
+    "async": "2.6.0",
+    "findup-sync": "2.0.0",
+    "geoip-lite": "1.2.1",
+    "minimist2": "1.0.2",
+    "printf": "0.2.5",
+    "qjobs": "1.1.5",
+    "winston": "2.4.0",
+    "yargs": "11.0.0"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "mocha": "latest",
+    "sol-telnet": "latest"
+  }
+}
